@@ -1,3 +1,4 @@
+ local Library = {}
 
 local ui = game:GetService("CoreGui"):FindFirstChild("redui")
 if ui then
@@ -4169,3 +4170,4 @@ function create:Win(text)
     end
     return top
 end
+return Library 
