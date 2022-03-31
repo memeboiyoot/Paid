@@ -4169,3 +4169,4 @@ function create:Win(text)
     end
     return top
 end
+return create
