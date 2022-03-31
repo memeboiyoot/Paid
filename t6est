@@ -4157,11 +4157,10 @@ function create:Win(text)
                 LabelStroke.LineJoinMode = Enum.LineJoinMode.Round
                 LabelStroke.Color = Color3.fromRGB(117, 255, 126)
                 LabelStroke.Transparency = 1
-
                 function labaelchange:Change(text2)
                     LabelFarm2.Text = text2
                 end
-                return labaelchange
+                return {}
             end
             return items
         end
@@ -4169,4 +4168,3 @@ function create:Win(text)
     end
     return top
 end
-return create
